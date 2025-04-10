@@ -1,11 +1,11 @@
 def month_to_season(n):
-    if 3 <= n <= 5:
+    if n in{3,4,5}:
         return "Весна"
-    elif 6 <= n <= 8:
+    elif n in{6,7,8}:
         return "Лето"
-    elif 9 <= n <= 11:
+    elif n in{9,10,11}:
         return "Осень"
-    elif n == 1 or n == 2 or n == 12:
+    elif n in{12,1,2}:
         return "Зима"
     else:
         return "Неверный номер месяца"
