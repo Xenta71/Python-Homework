@@ -3,7 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pages.login_page import LoginPage
-
+from selenium.webdriver.common.by import By
+from pages.inventory_page import InventoryPage
 
 @pytest.fixture
 def driver():
