@@ -3,7 +3,7 @@ import random
 import pytest
 
 BASE_URL = "https://ru.yougile.com/api-v2"
-AUTH_TOKEN = "Bearer frj1dFFVa9JsLNwPyJOBKDCn+QXq04yvZNPcR6zuspW2rP7+BSG-qEZSn+ov6tBo"
+AUTH_TOKEN = "Bearer "
 
 HEADERS = {
     "Authorization": AUTH_TOKEN,
