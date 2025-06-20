@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 # Подключение к PostgreSQL
-connection_string = "postgresql://postgres:888@localhost:5432/QAStudy"
+connection_string = "postgresql://postgres:mypassword@localhost:5432/QAStudy"
 engine = create_engine(connection_string)
 Base = declarative_base()
 
