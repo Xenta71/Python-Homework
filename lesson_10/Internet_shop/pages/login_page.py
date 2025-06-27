@@ -28,7 +28,7 @@ class LoginPage(BasePage):
         self.driver.get(self.url)
         return self
 
-    @allure.step("Ввести логин '{username}'")
+    @allure.step(f"Ввести логин '{username}'")
     def enter_username(self, username: str) -> "LoginPage":
         """Вводит логин в соответствующее поле.
 
@@ -57,7 +57,7 @@ class LoginPage(BasePage):
         self._click(self.login_button)
         return InventoryPage(self.driver)
 
-    @allure.step("Выполнить вход с логином '{username}' и паролем")
+    @allure.step(f"Выполнить вход с логином '{username}' и паролем")
     def login(self, username: str, password: str) -> InventoryPage:
         """Выполняет полный процесс авторизации.
 

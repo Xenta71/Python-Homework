@@ -12,7 +12,7 @@ class InventoryPage(BasePage):
         self.cart_link = (By.CLASS_NAME, "shopping_cart_link")
         self.cart_badge = (By.CLASS_NAME, "shopping_cart_badge")
 
-    @allure.step("Добавить товар '{item_name}' в корзину")
+    @allure.step(f"Добавить товар '{item_name}' в корзину")
     def add_item_to_cart(self, item_name: str) -> "InventoryPage":
         """Добавляет товар в корзину по названию.
 

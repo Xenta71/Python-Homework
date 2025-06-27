@@ -17,7 +17,7 @@ class BasePage:
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
 
-    @allure.step("Ввести текст '{text}' в элемент {locator}")
+    @allure.step(f"Ввести текст '{text}' в элемент {locator}")
     def _input(self, locator: tuple, text: str) -> None:
         """Базовый метод для ввода текста.
 
@@ -29,7 +29,7 @@ class BasePage:
         element.clear()
         element.send_keys(text)
 
-    @allure.step("Кликнуть по элементу {locator}")
+    @allure.step(f"Кликнуть по элементу {locator}")
     def _click(self, locator: tuple) -> None:
         """Базовый метод для клика по элементу.
 
@@ -38,7 +38,7 @@ class BasePage:
         """
         self.wait.until(EC.element_to_be_clickable(locator)).click()
 
-    @allure.step("Проверить видимость элемента {locator}")
+    @allure.step(f"Проверить видимость элемента {locator}")
     def _is_visible(self, locator: tuple) -> bool:
         """Проверяет видимость элемента.
 

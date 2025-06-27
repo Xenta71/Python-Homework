@@ -34,7 +34,7 @@ class CalculatorPage:
         delay_field.clear()
         delay_field.send_keys(str(seconds))
 
-    @allure.step("Нажать кнопку '{button_text}'")
+    @allure.step(f"Нажать кнопку '{button_text}'")
     def click_button(self, button_text: str) -> None:
         """
         Нажимает кнопку калькулятора по тексту на кнопке.

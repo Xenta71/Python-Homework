@@ -25,7 +25,7 @@ class CheckoutPage:
         self.finish_button = (By.ID, "finish")
         self.complete_header = (By.CLASS_NAME, "complete-header")
 
-    @allure.step("Заполнение информации: {first_name} {last_name} {postal_code}")
+    @allure.step(f"Заполнение информации: {first_name} {last_name} {postal_code}")
     def fill_info(self, first_name: str, last_name: str, postal_code: str) -> 'CheckoutPage':
         """Заполняет информацию для оформления заказа.
 
