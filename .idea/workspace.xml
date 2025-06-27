@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8257bc82-fec5-4060-80af-a326fc5b9ee0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-Homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-Homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_06/push_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_06/rename_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_06/wait_for_picture.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_06K/test_01_form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_06K/test_02_calc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_06K/test_03_shop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/calculator/calculator_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/calculator/test_calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/internet_shop/pages/cart_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/internet_shop/pages/checkout_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/internet_shop/pages/inventory_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/internet_shop/pages/login_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/internet_shop/test_checkout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/Calculator/calculator_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/Calculator/calculator_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/checkout_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/checkout_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/inventory_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/inventory_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/Internet_shop/pages/login_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson7" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,9 +72,16 @@
     "Python tests.Python tests in test_new_project.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lesson8"
+    "git-widget-placeholder": "#13 on lesson10",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Домашки/4 курс Автоматизация/Python-Homework/lesson_10"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Домашки\4 курс Автоматизация\Python-Homework" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_yougile.test_get_project_negative">
     <configuration name="Python tests for test_yougile.test_create_project_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python-Homework" />
@@ -188,6 +185,29 @@
       <updated>1748522983835</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/lesson10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
